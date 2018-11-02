@@ -1,0 +1,334 @@
+/*Assignment 3 - FIT1046 by Mikolaj Jochim 26906317*/
+@font-face {
+    font-family: Deutsch;
+    src: url(fonts/Deutsch.ttf);
+}
+
+@font-face {
+    font-family: Irish;
+    src: url(fonts/IrishUncialfabeta-Bold.ttf);
+}
+
+@font-face {
+    font-family: French;
+    src: url(fonts/Charline.otf);
+}
+
+@font-face {
+    font-family: Scot;
+    src: url(fonts/DesMalersFraktur.ttf);
+}
+
+@font-face {
+    font-family: Russia;
+    src: url(fonts/Bolshevik.otf);
+}
+
+@font-face {
+    font-family: English;
+    src: url(fonts/EnglishTowne.ttf);
+}
+/* div controls*/
+div{
+	width:960px;
+    height:450px;
+	margin: 0px auto;
+    
+    
+    
+ 
+}
+.cupimg {
+    float: left;
+	position:absolute;
+    
+}
+
+/*Header navigation and title control*/
+header nav {
+    font-family: Oswald, sans-serif;
+    font-size: 36px;
+  line-height:30px;
+  text-align:right;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+    
+}
+
+header h1 {
+  font-family: Oswald, sans-serif;
+  font-size:36px;
+  font-weight:normal;
+  line-height:30px;
+  position: absolute;
+	top: 10px;
+	left: 30px;
+    
+}
+/*remove underline*/
+header nav a {
+  font-weight:bold;
+  text-decoration: none;
+}
+
+header nav ul {
+	list-style: none;
+    
+}
+/*remove underline*/
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav li {
+	display: inline;
+	margin-left: 30px;
+}
+
+header {
+    background-image: url(Resources/header_background.jpg);
+    background-size: cover;
+    background-position: top center;
+    
+}
+
+body {
+    
+   text-align:left;
+   margin:0px auto;
+}
+
+
+/*clear fix attempt*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+section {
+    background-color: #e9e5cf;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 17%;
+    
+}
+
+#intro h1{
+    font-family: Oswald, sans-serif;
+    font-size: 72pt;
+    position: static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*------------------Wermacht Family CSS---------------*/
+#wermacht {
+    background-image: url(Resources/blood_splash.png), url(Resources/parchment_home.jpg);
+    background-size:cover;
+    background-position: top right, center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#wermacht h1 {
+    font-family: Deutsch;
+    font-size: 72px;
+    position:static;
+    margin-bottom: 50px;
+	
+    
+}
+
+/*Image hover change*/
+a img:last-child {
+  display: none;  
+}
+a:hover img:last-child {
+  display: block;  
+}
+a:hover img:first-child {
+  display: none;  
+}
+
+
+/*----------Humberton family CSS---------------*/
+#humberton{
+    background-image: url(Resources/axe_in_stump.png), url(Resources/woodplanks_background2.jpg);
+    background-size:auto, cover;
+    background-position: top right, center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#humberton h1 {
+    font-family: Irish;
+    font-size: 72px;
+    position:static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*-----------------Francois family CSS----------------*/
+#francois{
+    background-image: url(Resources/painting_empty.png), url(Resources/plaster_background2.jpg);
+    background-size:cover, cover;
+    background-position: top right, center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#francois h1 {
+    font-family: French;
+    font-size: 72px;
+    position:static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*-----------------McKaw family CSS----------------*/
+#mckaw {
+    background-image: url(Resources/whisky_bottle.png), url(Resources/leatherbook_background.jpg);
+    background-size:top right, cover;
+    background-position:top right, center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#mckaw h1 {
+    font-family: Scot;
+    font-size: 72px;
+    position:static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*-----------------Kosolovsky family CSS----------------*/
+#kosolovsky {
+    background-image: url(Resources/jesus_ontree.png), url(Resources/parchment_home.jpg), url(Resources/russian_gradient_background.jpg);
+    background-blend-mode: normal, luminosity;
+    background-size:auto, cover, cover; 
+    background-position:right top, center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#kosolovsky h1 {
+    font-family: Russia;
+    font-size: 65px;
+    position:static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*-----------------Cook family CSS----------------*/
+#cook {
+    background-image: url(Resources/chain_breaker.png), url(Resources/concrete_background.jpg);
+    background-size:auto, cover;
+    background-position:right top, center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#cook h1 {
+    font-family: English;
+    font-size: 74px;
+    position:static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*-----------------Tarnet family CSS----------------*/
+#tarnet {
+    background-image: url(Resources/rose.png), url(Resources/plaster_background2.jpg);
+    background-color: #afe6ac;
+    background-blend-mode: normal, multiply;
+    background-size:auto, cover; 
+    background-position:right top, center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#tarnet h1 {
+    font-family: 'Niconne', cursive;
+    font-size: 72px;
+    position:static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*-----------------Gelder family CSS----------------*/
+#gelder {
+    background-image: url(Resources/desert_background.jpg);
+    background-color: #afe6ac;
+    
+    background-size:cover; 
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    overflow: hidden;
+}
+
+#gelder h1 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 72px;
+    position:static;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*-----------------Where information----------------*/
+#where {
+    text-align: center;
+    
+}
+
+#where h1{
+    margin-bottom: 50px;
+}
+
+
+/* footer */
+footer {
+  background-color:#ffff;
+  color: black;
+  text-align: center;
+  padding:60px 0px;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-size: 20px;
+      
+}
+
+footer h6 {
+  
+  font-size:26px;
+  font-weight:normal;
+    margin-bottom: 50px;
+    
+}
+
+footer a {
+  color:black;
+}
+
